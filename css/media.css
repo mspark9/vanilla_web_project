@@ -103,4 +103,12 @@
     .insta-section .insta-wrapper {grid-template-columns: 1fr; row-gap: var(--el-medium);}
     .insta-section .insta-info {/* flex, grid 에서 사용할 수 있는 요소의 순서를 정함 */order: 1;}
     .insta-section .insta-left-image {order: 2;}
+
+    /* footer section styles */
+    footer .footer-upper {flex-direction: column;}
+    footer .footer-logo {margin-bottom: var(--el-medium);}
+    footer .footer-info {flex-direction: column; align-items: center; text-align: center; row-gap: var(--el-normal);}
+    footer .footer-sns {column-gap: .5rem;}
+    footer .footer-sns li {padding-left: 0;}
+    footer .footer-lower {flex-direction: column; row-gap: var(--el-normal); align-items: center; text-align: center;}
 }
